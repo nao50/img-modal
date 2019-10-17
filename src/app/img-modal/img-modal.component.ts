@@ -1,6 +1,11 @@
 import { Component, Inject, Input } from '@angular/core';
 import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 
+export interface ImageData {
+  src: string;
+  alt?: string;
+}
+
 @Component({
   selector: 'app-img-modal',
   templateUrl: './img-modal.component.html',

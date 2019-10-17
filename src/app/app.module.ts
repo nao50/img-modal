@@ -13,7 +13,8 @@ import { ImgModalComponent, DialogComponent } from './img-modal/img-modal.compon
 @NgModule({
   declarations: [
     AppComponent,
-    ImgModalComponent
+    ImgModalComponent,
+    DialogComponent
   ],
   imports: [
     BrowserModule,
